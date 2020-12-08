@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_screen1">#b12515</color>
+    <color name="bg_screen2">#ffbb00</color>
+    <color name="bg_screen3">#74a443</color>
+    <color name="dot_active">#FF13DEAB</color>
+    <color name="dot_inactive">#cccccc</color>
+    <color name="gradient1">#FFA48622 </color>
+    <color name="gradient2">#FF8E2247 </color>
+    <color name="gradient3"> #FF18B34E</color>
+    <color name="white">#fff</color>
+    <color name="bottomNavColor">#ff1744</color>
+    <color name="toolbarcolor">#71c7a0</color>
+    <color name="viewcolor">#f1f1f1</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+</resources>

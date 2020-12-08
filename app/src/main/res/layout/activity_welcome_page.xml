@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbb3"
+    tools:context="com.example.shiva.healthapp.WelcomePage">
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/my_pager">
+
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dots_layout"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="80sp">
+
+    </LinearLayout>
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_skip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Login"
+        android:background="#000"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="16sp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#fff"
+        android:background="#FF13DEAB"
+        />
+
+</RelativeLayout>
+

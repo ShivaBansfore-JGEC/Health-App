@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/item1" android:title="Diet Chart"
+    android:icon="@drawable/diet"
+    android:orderInCategory="100"/>
+    <item android:id="@+id/item2" android:title="Excercise Chart"
+        android:orderInCategory="100"
+        android:icon="@drawable/diet_chart"
+        />
+    <item android:id="@+id/item3" android:title="Calorie tracker"
+        android:orderInCategory="100"
+        android:icon="@drawable/calories"/>
+    <item android:id="@+id/item4" android:title="Excercise"
+        android:orderInCategory="100"
+        android:icon="@drawable/exercise"/>
+    <item android:id="@+id/item5" android:title="Gym Club"
+        android:orderInCategory="100"
+        android:icon="@drawable/weightlifting"/>
+    <item android:id="@+id/item6" android:title="Shop"
+        android:orderInCategory="100"
+        android:icon="@drawable/cart"
+       />
+    <item android:id="@+id/item7" android:title="Professionals"
+        android:icon="@drawable/trainer"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/item8" android:title="Sign up as Trainer"
+        android:orderInCategory="100"
+        android:icon="@drawable/sign_up_icon"/>
+    <item android:id="@+id/item9" android:title="Log Out"
+        android:orderInCategory="100"
+        android:icon="@drawable/sign_up_icon"/>
+
+</menu>

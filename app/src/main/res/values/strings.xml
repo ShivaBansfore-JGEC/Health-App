@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HealthApp</string>
+    <string name="FbId">2535201860039368</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Diet</string>
+    <string name="desc_slide1">It will restart automatically when the charger is connected</string>
+    <string name="title_slide2">Exercise</string>
+    <string name="desc_slide2">it will keep you updated on battery charge</string>
+    <string name="title_slide3">Calorie Tracker</string>
+    <string name="desc_slide3">It will alert you when battery reaches 100%</string>
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_prference_key">"com.abc.com.MyPrefKey"</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="rupee">\u20B9 </string>
+    <string name="title">Loren lypsum is the simply dummy text \n
+of the printing and typesetting \n
+industry</string>
+
+    <!-- Add Mode -->
+    <string name="App_name">HealthApp</string>
+    <string name="APP_Id">
+ca-app-pub-2335221943197045~7132127329</string>
+    <!-- Add Mode unit id-->
+    <string name="interstitial_full_screen">ca-app-pub-2335221943197045/3652171020</string>
+    <string-array name="body_type">
+        <item>thin</item>
+        <item>fat</item>
+        <item>medium</item>
+        <item>slim</item>
+    </string-array>
+</resources>

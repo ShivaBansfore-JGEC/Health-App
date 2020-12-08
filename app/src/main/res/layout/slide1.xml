@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/slider1_bg">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo2"
+        android:layout_marginTop="35dp"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_s1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="240dp"
+        android:text="DIET FOOD AND FITTNESS
+PLANNER"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_s1"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/title"/>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="center"-->
+        <!--&gt;-->
+        <!--<ImageView-->
+            <!--android:layout_width="@dimen/img_width"-->
+            <!--android:layout_height="@dimen/img_height"-->
+            <!--android:src="@drawable/slide1_img"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#fff"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textSize="@dimen/slide_title"-->
+            <!--android:text="@string/title_slide1"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#fff"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:textSize="@dimen/slide_desc"-->
+            <!--android:text="@string/desc_slide1"/>-->
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
